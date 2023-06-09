@@ -29,17 +29,31 @@ The result is that combinational logic circuits have no feedback, and any change
 ## Truth Table:
 
 ## Program:
-
+```
+module exp2a(a,b,c,d,f1,f2);
+input a,b,c,d;
+output f1,f2;
+wire adash,bdash,cdash,ddash,x,y,z,p,q,r;
+not(adash,a);
+not(bdash,b);
+not(cdash,c);
+not(ddash,d);
+and(x,bdash,ddash);
+and(y,adash,b,d);
+and(z,a,b,cdash);
+or(f1,x,y,z);
+and(p,cdash,d);
+and(q,a,c);
+and(r,b,c);
+or(f2,p,q,r);
+endmodule
+```
 
 ## RTL Schematic:
-
-
-
+![image](https://github.com/jeyaqbalan7/ex.2/assets/119393851/105b6ffd-5037-4b2a-b2e6-00c9759fa145)
 
 ## Timing Diagram:
-
-
-
+![image](https://github.com/jeyaqbalan7/ex.2/assets/119393851/453c1514-1358-4f9e-a7c9-62a95bae4fea)
 
 ## Result:
 
