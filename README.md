@@ -29,12 +29,11 @@ The result is that combinational logic circuits have no feedback, and any change
 
 ![image](https://github.com/jeyaqbalan7/ex.2/assets/119393851/7e338dac-f2e4-40f0-9b12-b7b2201f23cd)
 
+## Truth Table:
 ![image](https://github.com/jeyaqbalan7/ex.2/assets/119393851/b7a082be-b9e3-41d6-93bf-b91ffa3aa96c)
 
 ![image](https://github.com/jeyaqbalan7/ex.2/assets/119393851/90f647a9-890b-4def-90b7-8a39b5a31cc6)
 
-
-## Truth Table:
 
 ## Program:
 ```
